@@ -4,10 +4,12 @@ import Primeiro, {Segundo} from './component'
 import Family from './family';
 import Member from './member';
 import ClassComponet from './classComponent';
+import Field from './field'
 
 ReactDOM.render(
     <div>
-        <ClassComponet label="Contador" initialValue={10}/>
+        <Field initialValue='Teste'/>
+        {/* <ClassComponet label="Contador" initialValue={10}/> */}
         {/* <Primeiro value="show!"/>
         <Segundo value="bah!"/> 
         <Family lastName='Down'>

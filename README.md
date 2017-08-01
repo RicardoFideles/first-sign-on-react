@@ -1,3 +1,3 @@
-# first-sign-on-react
+# first-sight-on-react
 
 #### npm run dev
